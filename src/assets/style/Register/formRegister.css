@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.right-box-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+}
+
+.right-box-register .content-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.right-box-register .content-register h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Comfortaa;
+    font-size: 13px;
+    height: 5vh;
+    width: 100%;
+}
+
+.right-box-register .content-register .imagen {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+
+.right-box-register .content-register img {
+    font-size: 13px;
+    height: 10vh;
+}
+
+.right-box-register .content-register form {
+    width: 100%;
+    font-family: Comfortaa;
+}
+
+.right-box-register .content-register .box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.right-box-register .content-register .box input {
+    height: 35px;
+    border-width: 1px;
+    font-family: Comfortaa;
+    border-radius: 5px;
+}
+
+.right-box-register .content-register .box .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Comfortaa;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background: linear-gradient(91deg, #71C55D 0%, #8CDC79 100%);
+}
+
+.right-box-register .content-register h1 {
+    color: #000;
+    font-family: Patua One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-box-register .content-register .links-text {
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.right-box-register .content-register .links-text a {
+    color: #006600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right-box-register .content-register .links-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box-register .content-register .links-text .change-login {
+    font-size: 1.2rem;
+    font-family: Raleway;
+}

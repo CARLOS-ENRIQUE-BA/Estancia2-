@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.text-sup {
+    font-family: Bebas Neue;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 10;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.text-inf {
+    font-family: Bebas Neue;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    z-index: 10;
+    letter-spacing: 3px;
+}
+
+.plagas {
+    font-family: Bebas Neue;
+    color: #060;
+    letter-spacing: 3px;
+}
+
+.boton {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.boton button {
+    height: 8vh;
+    width: 240px;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid #FBFDFA;
+    background: #71C55D;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
