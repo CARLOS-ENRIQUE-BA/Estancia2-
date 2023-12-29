@@ -7,6 +7,7 @@ import img6 from "../img/imgRegister.svg";
 import icon1 from "../img/WhatsApp.svg";
 import icon2 from "../img/Facebook.svg";
 import icon3 from "../img/ArrowReturn.svg"
+import icon4 from "../img/flechaDerecha.svg"
 
 
 export default{
@@ -18,5 +19,6 @@ export default{
     "Register":img6,
     "WhatsappIcon":icon1,
     "FacebookIcon":icon2,
-    "ArrowReturn": icon3
+    "ArrowReturn": icon3,
+    "FlechaDerecha": icon4
 }
