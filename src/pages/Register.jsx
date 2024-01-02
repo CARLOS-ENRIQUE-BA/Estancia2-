@@ -1,10 +1,10 @@
 import FormRegister from "../components/organims/FormRegister";
-import "../assets/style/Login/login.css"
 import TextBoxLeft from "../components/organims/TextBoxLeft";
+import "../assets/style/Register/register.css"
 
 function Register() {
     return (
-        <div className="login">
+        <div className="register">
             <TextBoxLeft/>
             <FormRegister/>
         </div>

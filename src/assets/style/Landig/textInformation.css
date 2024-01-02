@@ -33,10 +33,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: auto;
+    margin: 50px 0;
 }
 
 .text-logo img{
-    height: 54%;
+    height: 400px;
     padding-right: 2%;
+}
+
+@media (max-width: 767px){
+    .text-logo{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 80px 0;
+    }
+
+    .text-box {
+        width: 80%;
+    }
+
+    .text-box .list{
+        width: 100%;
+    }
+
+    .text-logo img{
+        height: 400px;
+        margin-top: 40px;
+        padding: 0;
+    }
 }

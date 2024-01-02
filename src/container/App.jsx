@@ -4,6 +4,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import RecoverPassword from "../pages/RecoverPassword";
 import HomePageUser from "../pages/HomePageUser";
+import HomePageAdmin from "../pages/HomePageAdmin";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/Registrarse" element={<Register />}/>
                 <Route path="/RecuperarContraseña" element={<RecoverPassword />}/>
                 <Route path="/Inicio" element={<HomePageUser />}/>
+                <Route path="/InicioTopSecret" element={<HomePageAdmin />}/>
             </Routes>
         </BrowserRouter>
     );

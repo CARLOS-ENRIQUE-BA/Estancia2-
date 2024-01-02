@@ -68,3 +68,54 @@
     border-radius: 20px;
     width: 60%;
 }
+
+
+
+@media (max-width: 767px){
+    .right-box-login {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .right-box-login .text-box-right {
+        height: 60%;
+    }
+
+    .left-box-register {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .left-box-register .text-box-right {
+        height: 60%;
+    }
+
+    .text-box-right span{
+        font-family: Comfortaa;
+    }
+
+    .left-box-register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(90deg, #71C55D 0.29%, #7ACB66 50.52%, #7ECA6D 100%);
+    }
+
+    .left-box-register .text-box-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 4px 7px 15px 0px rgba(0, 0, 0, 0.08), 5px -5px 12px 0px rgba(255, 255, 255, 0.05) inset, -5px 5px 12px 0px rgba(255, 255, 255, 0.05) inset, -1px 4px 2px 0px rgba(201, 201, 201, 0.10) inset;
+    backdrop-filter: blur(75px);
+    }
+
+    .orangeText{
+        color: #FAA41B;
+    }
+}

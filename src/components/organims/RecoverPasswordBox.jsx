@@ -1,13 +1,41 @@
+import React, { useEffect, useState } from 'react';
 import Title from "../atoms/Title"
 import "../../assets/style/RecoverPassword/recoverPassword.css"
 
 function RecoverPasswordBox() {
+
+    const [displayContent, setDisplayContent] = useState(null);
+
+    // Función para cambiar el texto del SubTitle según el ancho de la pantalla
+    function cambiarContenidoSegunAncho() {
+        if (window.innerWidth <= 767) {
+            setDisplayContent(
+                <Title msn={"¿Has olvidado tu contraseña?"} />
+            );
+        } else {
+            setDisplayContent(
+                <Title msn={"Ingresa tu correo para recuperar tu contraseña"} />
+            );
+        }
+    }
+    useEffect(() => {
+        cambiarContenidoSegunAncho(); // Llamar a la función al cargar el componente
+
+        // Agregar event listener para cambiar el texto al cambiar el tamaño de la ventana
+        window.addEventListener("resize", cambiarContenidoSegunAncho);
+
+        // Limpiar el event listener al desmontar el componente para evitar fugas de memoria
+        return () => {
+            window.removeEventListener("resize", cambiarContenidoSegunAncho);
+        };
+    }, []);
+
     return (
         <>
-            <div className="square"/>
+            <div className="square" />
             <div className="mega-box">
                 <div className="box-recover">
-                    <Title msn={"Ingresa tu correo para recuperar tu contraseña"} />
+                    {displayContent}
                     <form action="">
                         <div className="box">
                             <label htmlFor="">Correo:</label>
@@ -23,7 +51,7 @@ function RecoverPasswordBox() {
                     </form>
                 </div>
             </div>
-            <div className="square-2"/>
+            <div className="square-2" />
         </>
     );
 }

@@ -13,7 +13,11 @@ function BackgroundRecover() {
                 </div>
             </div>
             <div className="box-green">
-                <div className="box-container"/>
+                <div className="box-container">
+                    <div className="text-box-right">
+                        <img src={ImgArray.Logo} alt="Imagen para pantallas pequeñas" />
+                    </div>
+                </div>
             </div>
         </div>
     );

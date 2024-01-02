@@ -10,7 +10,7 @@ function TextInformation() {
             <div className="text-box">
                 <div><SubTitle msn={<span className="greenText">Sobre <span className="nosotros">nosotros</span></span>} /></div>
                 <div><Paragraph text={"Hacemos control de. Plagas urbanas  a industrias, hospitales y comercio. Con casas habitaciones también desinfección a hospitales y empresas de procesos de alimentos"} /></div>
-                <div>
+                <div className="list">
                     <ol>
                         <li>Control de plagas en genera</li>
                         <li>Plagas especiales a controlar</li>

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
-import "../../assets/style/Home/carrusel.css"
 import ImgArray from "../../assets/js/ImgArray";
+import Title from "../atoms/Title";
+import "../../assets/style/Home/carrusel.css"
 
 function Carrusel() {
 
@@ -20,36 +21,97 @@ function Carrusel() {
         }
     }
 
-    return (
+    const redirigir = () => {
+        window.location.href = 'https://t.me/jose271019';
+    };
 
+    return (
         <div className="container-padre">
+            <div className="product">
+                <Title msn={"Productos"} />
+            </div>
             <div className="container">
                 <div id="slide">
-
-                    <div className="item" style={{ background: `blue` }}>
+                    <div className="item" style={{ background: `transparent` }}>
                         <div className="content">
                             <div className="text-container">
                                 <div className="text">
-                                    <div className="name">Geckos</div>
-                                    <div className="des">Los geckos son lagartos pequeños con pies adhesivos, se encuentran en todo el mundo, comen insectos y tienen la capacidad de cambiar de color. Son importantes para el control de plagas.</div>
+                                    <div className="name">Konox</div>
+                                    <div className="des">controla a todo tipo de plaga tanto rastrera como volador. Cucaracha en todas sus especies, mosca, hormigas y alacranes.</div>
                                 </div>
-                                <img src={ImgArray.Card3} />
+                                <img src={ImgArray.carrusel1} />
                             </div>
                         </div>
                     </div>
 
-                    <div className="item" style={{ backgroundImage: `url(${ImgArray.Card2})` }}>
+                    <div className="item" style={{ background: `transparent` }}>
                         <div className="content">
-                            <div className="name">Cocodrilos</div>
-                            <div className="des">Enormes reptiles acuáticos y terrestres de zonas tropicales. Depredadores esenciales para el equilibrio de su hábitat. Su piel resistente es valiosa en la moda. Fundamentales en la red de la vida silvestre.</div>
+                            <div className="text-container">
+                                <div className="text">
+                                    <div className="name">Piretroides</div>
+                                    <div className="des">Son insecticidas que se usan a menudo en los hogares en aerosoles para matar o repeler insectos.</div>
+                                </div>
+                                <img src={ImgArray.carrusel2} />
+                            </div>
                         </div>
                     </div>
-                    <div className="item" style={{ backgroundImage: `url(${ImgArray.Card3})` }}>
+
+                    <div className="item" style={{ background: `transparent` }}>
                         <div className="content">
-                            <div className="name">Viboras</div>
-                            <div className="des">A pesar de su imagen intimidante, son piezas claves en la red de vida salvaje. Regulan poblaciones y su veneno tiene usos médicos. Fundamentales en el equilibrio ecológico.</div>
+                            <div className="text-container">
+                                <div className="text">
+                                    <div className="name">Erradic Block</div>
+                                    <div className="des">Anticoagulante de segunda generación, de una sola dosis elimina ratas, ratones y otras especies de roedores en el ámbito urbano.</div>
+                                </div>
+                                <img src={ImgArray.carrusel3} />
+                            </div>
                         </div>
                     </div>
+
+                    <div className="item" style={{ background: `transparent` }}>
+                        <div className="content">
+                            <div className="text-container-maquinaria">
+                                <div className="text">
+                                    <div className="name">Aspersora manual</div>
+                                </div>
+                                <img src={ImgArray.carrusel4} />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="item" style={{ background: `transparent` }}>
+                        <div className="content">
+                            <div className="text-container-maquinaria">
+                                <div className="text">
+                                    <div className="name">Aspersora motorizada</div>
+                                </div>
+                                <img src={ImgArray.carrusel5} />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="item" style={{ background: `transparent` }}>
+                        <div className="content">
+                            <div className="text-container-maquinaria">
+                                <div className="text">
+                                    <div className="name">Nebulizadora de motor</div>
+                                </div>
+                                <img src={ImgArray.carrusel6} />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="item" style={{ background: `transparent` }}>
+                        <div className="content">
+                            <div className="text-container-maquinaria">
+                                <div className="text">
+                                    <div className="name">Aspersor Termonebulizador</div>
+                                </div>
+                                <img src={ImgArray.carrusel7} />
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="buttons" ref={Btn}>
                     <div className="atras">
@@ -60,6 +122,16 @@ function Carrusel() {
                     </div>
                 </div>
             </div>
+
+            <div className="alazar">
+                <div className="text-tele">
+                    <Title msn={"Contactanos a traves de Telegram"} />
+                </div>
+                <div className="box">
+                    <button type="button" className="btn" onClick={redirigir}>Entrar</button>
+                </div>
+            </div>
+            
         </div>
 
 

@@ -92,3 +92,39 @@
 .left-box-login .content .links-text .change {
     padding-bottom: 4px;
 }
+
+@media (max-width: 767px){
+    .left-box-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .left-box-login .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: auto;
+    }
+
+    .left-box-login .content h3 {
+        font-size: 18px;
+        color: #FAA41B;
+    }
+
+    .left-box-login .content img {
+        display: none;
+        height: 0;
+        width: 0;
+        padding-bottom: 0;
+    }
+
+    .left-box-login .content .links-text {
+        text-align: center;
+    }
+}
