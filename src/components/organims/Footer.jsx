@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Title from "../atoms/Title";
 import Paragraph from "../atoms/Paragraph";
 import ImgArray from "../../assets/js/ImgArray";
@@ -35,7 +36,7 @@ function Footer() {
                             <div>
                                 <Paragraph text={"Síguenos en:"} />
                                 <div className="logo-unico">
-                                    <img src={ImgArray.FacebookIcon} />
+                                    <Link to="https://www.facebook.com/fumigacionespepes.fumigacionespepes?mibextid=ZbWKwL" ><img src={ImgArray.FacebookIcon} /></Link>
                                 </div>
                             </div>
                         </div>

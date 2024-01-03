@@ -90,8 +90,8 @@ function Cards() {
                         </table>
                     </div>
                 </div>
-                <div className="card-3">
-                    <img src={ImgArray.Card3} />
+                <div className="card-4">
+                    <img src={ImgArray.Card4} />
                     <div className="line">
                         <hr />
                     </div>
@@ -102,8 +102,8 @@ function Cards() {
                         <Paragraph text={"TRABAJAMOS PARA MEJORAR EL BIENESTAR Y SALUD DE NUESTROS CLIENTES EN TODAS LAS RAMAS ECONOMICAS Y SOCIALES, OFRECIENDOLES NUESTROS MEJORES PRODUCTOS Y SERVICIOS CON CALIDAD DE EXCELENCIA, BRINDANDO SEGURIDAD Y CONFIANZA, ENTREGANDOLE OPORTUNAMENTE EN LA UBICACIÓN QUE EL CLIENTE DECIDA Y AUN PRECIO RAZONABLE."} />
                     </div>
                 </div>
-                <div className="card-3">
-                    <img src={ImgArray.Card3} />
+                <div className="card-4">
+                    <img src={ImgArray.Card4} />
                     <div className="line">
                         <hr />
                     </div>

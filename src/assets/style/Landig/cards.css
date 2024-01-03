@@ -224,3 +224,75 @@
 .cards .content .card-3:hover{
     transform: translateY(-20px);
 }
+
+/* estilos carta 4 */
+
+.cards .content .card-4 {
+    width: 350px;
+    border-radius: 10px;
+    height: 60vh;
+    margin: 20px;
+    transition: .4s;
+}
+
+.cards .content .card-4 .info-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.cards .content .card-4 .info-card p{
+    margin: 6px 12px;
+    text-align: center;
+    font-size: small;
+}
+
+.cards .content .card-4 .info-card table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.cards .content .card-4 .info-card table td {
+    text-align: center;
+    width: 33.33%;
+}
+
+.cards .content .card-4 img {
+    width: 80%;
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-4 .line {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    width: 100%;
+    height: 4vh;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(to top, #ffffff, #75D7F0);
+}
+
+.card-4 .line hr {
+    width: 10%;
+    margin-bottom: 40px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #091F84;
+}
+
+.cards .content .card-4:hover{
+    transform: translateY(-20px);
+}

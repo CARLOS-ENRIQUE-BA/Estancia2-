@@ -17,7 +17,7 @@ function InformationImg() {
                 <Title msn={"tranquilidad asegurada!"} />
             </div>
             <div className="boton">
-                <button type="button" className="btn" onClick={redirigir}>Inicicar sesión</button>
+                <button type="button" className="btn" onClick={redirigir}>Iniciar sesión</button>
             </div>
         </>
     );
